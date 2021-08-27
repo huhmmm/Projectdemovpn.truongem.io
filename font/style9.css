@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu>li>a{
+    font-family: comforta;
+    color:black;
+    font-weight: bolder;
+    padding: 20px; /* cách giữa các đoạn và chữ */
+    text-decoration: none; 
+    font-size: 20px;
+}
+ul.menu{
+    list-style: none;
+   
+}
+ul.menu>li{
+    float: left;
+    
+}
+ul.menu>li>a:hover{
+    color:gray;
+}
+div.mb{
+    width: 90%; /*tạo bảng với số đo*/
+    margin: auto;
+    padding: 10px 0; /*cách mép lề đầu*/
+    display: flex; /*tạo bảng nhỏ chia phần */
+    align-items: center; /*căn logo và chữ ra giũa bảng*/
+    justify-content: space-between; /*caschkhoanggiualogovachu*/
+    
+}
+div.intro{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%) ;
+    display: flex;
+    margin: 10px 0px;
+    width: 90%;
+    align-items:center;
+    flex-direction:column; /*xếp phần theo thứ tự dọc từ trên xuống dưới*/
+}
+div.intro>h1{
+    font-size: 70px;
+    font-family:comforta;
+    color: honeydew;
+}
+div.gt{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+div.gt>h2{
+    text-align: center;
+    font-family: comforta;
+    font-size: 25px;
+    padding-top: 10px;
+    color:#5555ff;
+    font-weight: bolder;
+}
+button{
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #42dc69;
+    border: none;
+    margin-top: 80px;
+}
+button>h1{
+    font-family: comforta;
+    text-align: center;
+    color: black;
+}
+button>h1:hover{
+    color:whitesmoke;
+}
+
+
+
