@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    font-family: comforta;
+    display: flex;
+    align-items: center;
+    padding: 300px;
+    height: 40%;
+}
+.one{
+    flex-basis: 50%; /*xếp cổ điển theo hướng thẳng không dính cùng dòng,và  chỉ gồm phần tử nó có koong chiếm hết màn hình*/
+}
+button{
+    width: 250px;
+    padding: 15px 0;
+    border: beige;
+    border-radius: 25px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: comforta;
+    background-color:#2eaa5e;
+    font-size: 20px;
+    font-weight: lighter;
+    color: beige;
+}
+button:hover{
+    color: gray;
+}
+.one>h1{
+    font-family: comforta;
+    font-size: 80px;
+    color: whitesmoke;
+}
+.one>p{
+    font-size: 20px;
+    margin-top: 30px;
+    color: yellow;
+}
+.card{
+    width: 450px;
+    height: 400px;
+    display: inline-block;
+    border-radius: 25px;
+    background-color: bisque;
+    padding: 10px;
+    margin:20px
+}
+.card>h5{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #ffc8ac;
+    border-radius: 25px;
+    height: 40px;
+    padding-top: 10px;
+
+}
+.card>pre{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: comforta;
+    background-color:#ffc8ac;
+    border-radius: 25px;
+    height: 220px;
+    padding-top: 50px;
+    
+}
+
+.card>button{
+    align-items: center;
+    width: 445px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.col{
+    margin-left: 500px;
+    margin-top: 200px;
+}
