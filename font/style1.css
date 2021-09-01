@@ -8,6 +8,7 @@
     align-items: center;
     padding: 300px;
     height: 40%;
+    flex-direction: row;
 }
 .one{
     flex-basis: 50%; /*xếp cổ điển theo hướng thẳng không dính cùng dòng,và  chỉ gồm phần tử nó có koong chiếm hết màn hình*/
@@ -16,7 +17,7 @@ button{
     width: 250px;
     padding: 15px 0;
     border: beige;
-    border-radius: 25px;
+    border-radius: 35px;
     margin-top: 30px;
     text-align: center;
     font-family: comforta;
@@ -26,24 +27,24 @@ button{
     color: beige;
 }
 button:hover{
-    color: gray;
+    color: black;
 }
 .one>h1{
     font-family: comforta;
-    font-size: 80px;
+    font-size: 100px;
     color: whitesmoke;
 }
 .one>p{
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 30px;
     color: yellow;
 }
 .card{
     width: 450px;
-    height: 400px;
+    height: 500px;
     display: inline-block;
-    border-radius: 25px;
-    background-color: bisque;
+    border-radius: 15px;
+    background-color:#ffc8ac;
     padding: 10px;
     margin:20px
 }
@@ -51,7 +52,7 @@ button:hover{
     text-align: center;
     font-weight: bold;
     font-size: 20px;
-    background-color: #ffc8ac;
+    background-color: bisque;
     border-radius: 25px;
     height: 40px;
     padding-top: 10px;
@@ -61,9 +62,9 @@ button:hover{
     font-size: 20px;
     margin-top: 10px;
     font-family: comforta;
-    background-color:#ffc8ac;
-    border-radius: 25px;
-    height: 220px;
+    background-color:bisque;
+    border-radius: 30px;
+    height: 310px;
     padding-top: 50px;
     
 }
